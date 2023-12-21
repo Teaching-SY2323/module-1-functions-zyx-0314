@@ -4,10 +4,10 @@ using namespace std;
 
 int Add2Values(int, int);
 
-int main(int a, int b)
+int main (int argc, char** argv)
 {
     int x, y;
-    cout << a << "-" << b << "\n";
+    cout << argv[0] << "-" << argv[1] << "\n";
     cout
         << "-- Add 2 Values --\n"
         << "Enter x Values: ";
