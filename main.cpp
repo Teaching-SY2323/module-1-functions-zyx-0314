@@ -24,5 +24,5 @@ int main(int a, int b)
 
 int Add2Values(int x, int y)
 {
-    // make your code here
+    return x + y;
 }
